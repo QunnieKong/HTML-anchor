@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.nav-top{
+  width: 600px;
+  height: 50px;
+}
+
+ul{
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+li{
+  display: inline-block;
+  width:120px;
+  height: 40px;
+  font-size: 30px;
+}
+
+.nav-top.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content:{
+  font-size: 20px;
+}
+
+.inn{
+  border: 10px solid black;
+  width: 600px;
+  height: 400px;
+}
+
+.inn.a{
+  background-color: purple;
+}
+.inn.b{
+  background-color: gray;
+}
+.inn.c{
+  background-color: pink;
+}
+.inn.d{
+  background-color: yellow;
+}
