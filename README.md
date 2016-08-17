@@ -2,7 +2,7 @@
 A question about using &lt;a> anchor to locate different section of one html page.
 
 <p>页面中有两部分结构，第一部分是导航条nav，第二部分是内容content。</p>
-<p>其中，导航条用<a href="anchor-name">锚链接，内容分为四块每块前面添加<a id="#anchor-name">的锚点。</p>
+<p>其中，导航条用a href="anchor-name"锚链接，内容分为四块每块前面添加a id="#anchor-name"的锚点。</p>
 <p>调用js判断页面滚动高度，到达一定高度时将导航条fix在视窗顶端.</p>
 <p>此时问题出现了：</p>
 <p>当导航条不为fixd状态时，点击锚链接则会跳转到比正常跳转位置偏上的状态：</p>
@@ -13,3 +13,8 @@ A question about using &lt;a> anchor to locate different section of one html pag
 <p>锚链接的跳转原理是什么？如果是改变scroll高度的话是改变的相对高度吗？</p>
 
 ——2016.8.4目前还未找到好的解决办法
+
+<h5>2016.8.17问题解决了</h5>：
+<h3>锚点定位过程</h3>
+<p>其实一开始不明白的就是锚点定位的过程，因为我在js里用console.log输出锚点位置的时候，每次输出的值都是相同的，然而跳转结果却不相同。网上搜到有关锚点定位的资料少之又少，比如有人讲说锚点定位的原理是控制页面的滚动高度，我就想如果锚点的位置值不变那么页面的滚动高度每次都相同，就不会产生这种情况。</p>
+<p>现在看来原理其实是：正因为滚动高度每次不变，而导航条脱离文本流之后的页面相对于之前页面被抽走了一节，于是定位的结果出现了偏差。</p>
