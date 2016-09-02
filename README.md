@@ -8,7 +8,7 @@
 <ul>
 <li>
 <h4>HTML-anchor:HTML页面锚点定位问题</h4>
-<p>结论？:锚点定位是在js改变dom结构之前</p>
+结论？:锚点定位是在js改变dom结构之前
 </li>
 <li>
 <h4>Pull-load:滑动加载更多及JQuery调用AngularJS方法</h4>
