@@ -1,4 +1,6 @@
 // 容器宽高不变，自适应图片水平居中
+// How to make picture centeted in a div.
+// If picture has longer width/height than height/width it'll have width/height equals to father div,and auto height/width.
 
 var getMargin = function(width,height){
     var ele = $('#center');
