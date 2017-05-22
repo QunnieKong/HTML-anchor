@@ -1,5 +1,6 @@
 # plug-n-learn代码
-# 
+# Rokni S A, Ghasemzadeh H. Plug-n-learn: automatic learning of computational algorithms 
+# in human-centered internet-of-things applications[C]// Design Automation Conference. ACM, 2016:139.
 
 import numpy as np
 import pandas as pd
