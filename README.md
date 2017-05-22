@@ -18,4 +18,8 @@
 <p>1.在宽高比确定的div中居中显示图片（若为宽图则垂直居中，长图则水平居中）</p>
 <p>2.在已知宽高的正方形div中显示图片中间正方形部分</p>
 </li>
+<li>
+<h4>PNL:Python行为识别代码</h4>
+<p>Rokni S A, Ghasemzadeh H. Plug-n-learn: automatic learning of computational algorithms in human-centered internet-of-things applications[C]// Design Automation Conference. ACM, 2016:139.</p>
+</li>
 </ul>
